@@ -1,6 +1,8 @@
 #include <iostream>
 
-double f(int);
+double diametro(int);
+double perimetro(int);
+double area(int);
 
 int main () {
   std::cout << "Ingrese un valor para el radio de un circulo" << std::endl;
