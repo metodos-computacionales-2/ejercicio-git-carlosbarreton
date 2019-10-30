@@ -15,7 +15,11 @@ int main() {
   
   if (forman_triangulo(a,b,c)) {
     std::cout << "Los numeros pueden representar un triangulo rectangulo" << std::endl;
-  else {
+  } else {
     std::cout << "Los numero NO pueden representar un triangulo rectangulo" << std::endl;
   }
+}
+
+bool forman_triangulo(int a, int b, int c) {
+  return true;
 }
