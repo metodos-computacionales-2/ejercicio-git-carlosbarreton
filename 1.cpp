@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 double diametro(int);
 double perimetro(int);
@@ -14,6 +15,14 @@ int main () {
   std::cout << "El area es " << area(N) << std::endl;
 }
 
-double f(int x) {
-  return x*x;
+double diametro(int x) {
+  return 2*x;
+}
+
+double perimetro(int x) {
+  return 2*M_PI*x;
+}
+
+double area(int x) {
+  return M_PI*x*x;
 }
