@@ -21,5 +21,20 @@ int main() {
 }
 
 bool forman_triangulo(int a, int b, int c) {
-  return true;
+
+		if (a > b and a > c) {
+		   if (a*a == b*b + c*c) {
+		     return true;
+		   }
+		} else if (b > a and b > c) {
+		   if (b*b == a*a + c*c) {
+		     return true;
+		   }
+		} else {
+		   if (c*c == a*a + b*b) {
+		     return true;
+		   }
+		}
+		
+		return false;
 }
