@@ -3,15 +3,13 @@
 double f(int);
 
 int main () {
-  std::cout << "Ingrese el numero de elementos a ver" << std::endl;
+  std::cout << "Ingrese un valor para el radio de un circulo" << std::endl;
   int N;
   std::cin >> N;
   
-  for (int i = 0; i < N; i++) {
-    if (i%2 == 0) {
-      std::cout << f(i) << "\t" << i << std::endl;
-    }
-  }
+  std::cout << "El diametro es " << diametro(N) << std::endl;
+  std::cout << "El perimetro es " << perimetro(N) << std::endl;
+  std::cout << "El area es " << area(N) << std::endl;
 }
 
 double f(int x) {
