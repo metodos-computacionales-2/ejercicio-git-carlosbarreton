@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+bool forman_triangulo(int,int,int);
+
 int main() {
   int a;
   int b;
